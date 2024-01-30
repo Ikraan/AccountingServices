@@ -1,0 +1,93 @@
+.home-container > img {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    opacity: 50%;
+}
+.home-wrapper {
+    flex: 1;
+    padding: 20px;
+  }
+
+.home-wrapper {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the text box */
+  }
+
+.startbtn{
+    border-radius: 25px;
+    background-color: rgb(0, 188, 212);
+    color: rgb(255, 255, 255);
+    margin-left: 0;
+    margin-top: 0;
+    line-height: 4px;
+    font-weight: 700;
+    font-size: 19px;
+}
+.startbtn:hover{
+    background-color: white;
+    color:black;
+}
+
+.bookbtn {
+    border-color: #00bcd4;
+    border-width: 2px; 
+    border-style: solid; 
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    color: #038fa1;
+    line-height: 4px;
+    font-weight: 800;
+    font-size: 19px;
+}
+.bookbtn:hover{
+    background-color: #00bcd4;
+    color: white;
+}
+.home-wrapper .bookbtn .startbtn {
+    flex: 1;
+    padding: 20px;
+}
+
+.home-wrapper .bookbtn .startbtn{
+max-width: 100%;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.button-container {
+    display: flex; 
+    gap: 10px; /* spaces between the buttons */
+    align-items: center;
+    justify-content: center;
+}
+
+.spanBox {
+   color: rgba(0, 0, 0, 0.611);
+    font-weight: 700;
+    font-size: 50px;
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px; /* space between span and buttons */
+}
+
+.spanBox span {
+    font-size: 60px;
+}
+
+
+
+
+@media screen and (max-width:969px){
+.button-container {
+    display: flex;
+    flex-direction: column;  /* Stack the items vertically */
+    align-items: center;  /* Center the items horizontally */
+    gap: 10px;
+}}

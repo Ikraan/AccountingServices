@@ -1,0 +1,65 @@
+/* Add some styling for a more professional and creative look */
+.label {
+    display: block;
+    text-align: left;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.contactUs {
+    text-align: center;
+    color: #333;
+}
+
+.servicesWrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 180px;
+}
+
+.formTable {
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.contact-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 40px;
+}

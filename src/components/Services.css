@@ -1,0 +1,67 @@
+h3 {
+    font-size: 16px;
+    text-align: left;
+}
+.services.checklist li {
+    text-align: left;
+}
+.service-container > img {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    opacity: 50%;
+}
+
+.servicesWrapper {
+   background-color: rgba(245, 245, 245, 0.741);
+   padding: 20px;
+   border-bottom: 2px black;
+}
+
+
+.services-checklist li {
+    margin-left: 150px;
+    list-style: none;
+  }
+
+  .servicesWrapper {
+    justify-content: space-between;
+    background-color: rgba(245, 245, 245, 0.741);
+    padding: 20px;
+
+  }
+  
+  .image-wrapper,
+  .image-wrapper1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .image-wrapper img,
+  .image-wrapper1 img {
+  width: 95%; /* Make the image fill the container */
+  height: 300px; /* Set a fixed height for the images */
+  object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  span {
+    font-size: large;
+    font-weight: 300;
+  }
+
+  h4 {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center; /* Center-align the text */
+    margin-bottom: 20px; /* Add some space below the heading */
+  }
